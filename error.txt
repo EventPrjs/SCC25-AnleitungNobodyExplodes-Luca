@@ -1,0 +1,3 @@
+der Fehler befindet sich in der Scene 3_wire und verursacht das die buttons 
+nicht anklickbar sind. vermutlich hat es etwas mit dem Script buttonManager.cs
+zu tun.(Semantischer fehler)
