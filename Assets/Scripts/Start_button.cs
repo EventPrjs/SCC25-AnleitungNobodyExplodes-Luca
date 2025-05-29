@@ -7,11 +7,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Wire_Ja_button : MonoBehaviour
+public class Start_button : MonoBehaviour
 {
    public void Startbutton()
     {
-        SceneManager.LoadScene("Scene2");
+        SceneManager.LoadScene("Scene1");
 
     }
    

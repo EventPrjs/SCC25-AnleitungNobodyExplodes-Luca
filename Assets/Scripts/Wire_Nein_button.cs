@@ -7,7 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class Wire_Ja_button : MonoBehaviour
+public class Wire_Nein_button : MonoBehaviour
 {
     public void Startbutton()
     {
