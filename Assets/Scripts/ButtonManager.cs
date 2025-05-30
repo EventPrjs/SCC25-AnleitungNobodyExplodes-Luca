@@ -33,6 +33,16 @@ public class ButtonManager : MonoBehaviour
 
     void SetButtonColor(int buttonIndex, int colorIndex)
     {
-        buttons[buttonIndex].targetGraphic.color = colors[colorIndex];
+        Color newColor = colors[colorIndex];
+        ColorBlock cb = buttons[buttonIndex].colors;
+
+        cb.normalColor = newColor;
+        cb.highlightedColor = newColor;
+        cb.pressedColor = newColor;
+        cb.selectedColor = newColor;
+        cb.disabledColor = newColor;
+        
+
+        buttons[buttonIndex].colors = cb;
     }
 }
